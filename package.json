@@ -1,6 +1,6 @@
 {
   "name": "@shakedgo/test_vue_npm",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "files": ["dist"],
   "main": "./dist/my-lib.umd.js",
   "module": "./dist/my-lib.es.js",
@@ -10,10 +10,7 @@
       "require": "./dist/my-lib.umd.js"
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shakedgo/test_vue_npm.git"
-  },
+  "repository": "github:shakedgo/test_vue_npm",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
