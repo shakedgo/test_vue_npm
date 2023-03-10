@@ -1,4 +1,3 @@
-const path = require("path");
 const { defineConfig } = require("vite");
 const vue = require("@vitejs/plugin-vue");
 
@@ -6,7 +5,7 @@ const vue = require("@vitejs/plugin-vue");
 export default defineConfig({
 	build: {
 		lib: {
-			entry: path.resolve(__dirname, "src/components/index.js"),
+			entry: "./src/index.js",
 			name: "MyLib",
 			fileName: (format) => `my-lib.${format}.js`,
 		},
@@ -23,3 +22,6 @@ export default defineConfig({
 	},
 	plugins: [vue()],
 });
+module.exports = {
+	css: { extract: false },
+};

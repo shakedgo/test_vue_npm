@@ -10,13 +10,12 @@ const count = ref(props.start);
 
 <template>
 	<div class="card">
-		<button type="button" @click="count++">count is {{ count }}</button>
+		<button type="button" class="cnt_btn" @click="count++">
+			count is {{ count }}
+		</button>
 	</div>
 </template>
 
-<style lang="scss" scoped>
-.card {
-  background: #888;
-  button {background: blue;color: white;}
-}
+<style lang="scss" src="../assets/styles.scss" scoped>
+
 </style>
