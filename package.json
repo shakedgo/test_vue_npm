@@ -1,6 +1,6 @@
 {
   "name": "@shakedgo/test_vue_npm",
-  "version": "0.0.9",
+  "version": "0.1.4",
   "files": ["dist"],
   "main": "./dist/my-lib.umd.js",
   "module": "./dist/my-lib.es.js",

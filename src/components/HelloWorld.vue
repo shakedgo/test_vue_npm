@@ -1,4 +1,5 @@
 <script setup>
+import "../assets/styles.scss";
 import { ref } from "vue";
 const props = defineProps({
 	msg: String,

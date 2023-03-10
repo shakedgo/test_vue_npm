@@ -21,7 +21,11 @@ export default defineConfig({
 		},
 	},
 	plugins: [vue()],
+	css: {
+		loaderOptions: {
+			scss: {
+				data: `@import "./src/assets/styles.scss";`,
+			},
+		},
+	},
 });
-module.exports = {
-	css: { extract: false },
-};
