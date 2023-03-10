@@ -1,7 +1,6 @@
 {
-  "name": "test_vue_npm",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@shakedgo/test_vue_npm",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "sass": "^1.58.3",
     "vue": "^3.2.45"
   },
   "devDependencies": {
